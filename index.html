@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm XU Yunxiao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/104ccbf182.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-----NavigationBar---->
+    <section id="nav--bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.JPG"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slider">Slider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!------homepage------>
+    <section class="homepage">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img src="img/profile.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Mr. Yunxiao XU (<small>徐云筱先生</small>)</h1>
+                        <h5><em>Reading ten thousand books is like traveling ten thousand miles.</em></h5>
+                        <p class="pt-4 ">
+                            <h6>
+                                Yunxiao XU is currently a PG student in the<a href="https://www.eie.polyu.edu.hk/home/index.html" target="_blank"> Department of Electronic and Information Engineering,</a> <a href="https://www.polyu.edu.hk/" target="_blank">the Hong Kong Polytechnic University</a>. He received his BS degree in Internet of Things Engineering from <a href="http://cs.ujs.edu.cn/" target="_blank"> the School of Computer Science and Communication Engineering</a>,<a href="http://www.ujs.edu.cn/" target="_blank"> Jiangsu University</a>.</h6>
+                        </p>
+                        <p>
+                            <h6>
+                                I want to be an IoT full-stack enginner after graduation and am working hard for it. I've developed an interesting IoT system prototype<a href="https://www.youtube.com/watch?v=FabwW6fIXoI&t=13s" target="_blank"> "Smart House"</a>, you are welcome to watch it if interested.</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-------Slider------->
+    <div id="slider">
+        <div>
+            <h3 id="heading" class="text-center text-secondary">Things make me special</h3>
+
+            <div class="heading-underline bg-secondary"></div>
+        </div>
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/background1.jpg" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h5>THE TERRACOTTA ARMY </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background2.jpg" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h5>ROUJIAMO</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background3.jpg" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h5>QINQIANG</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div>
+            <div>
+                <div class="col-12 narrow text-center">
+                    <h4>The unique features of a local environment always give special characteristics to its inhabitants.</h4>
+                    <p class="lead"></p>
+                    <a class="btn btn-secondary btn-md" data-toggle="collapse" href="#collapseMore" role="button">
+                        More
+                    </a>
+
+                    <div class="collapse no-margin" id="collapseMore">
+                        <div class="card card-body bg-secondary text-light">
+                            <p>THE TERRACOTTA ARMY: the armies of Qin Shi Huang, the first Emperor of China.</p>
+                            <p>ROUJIAMO: yummy! chinese hamburger.</p>
+                            <p>QINQIANG: ancient "rock music" from Qin dynasty.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------portfolio-------->
+        <section id="portfolio">
+            <div class="jumbotron container-fluid">
+                <div id="movies">
+                    <h3 id="heading" class="text-center text-secondary">Movie Means the World to me</h3>
+                    <div class="heading-underline bg-secondary"></div>
+                </div>
+                <div class="row no-padding">
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/1.jpg" target="_blank">
+                                <img src="img/portfolio/1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/2.jpg" target="_blank">
+                                <img src="img/portfolio/2.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/3.jpg" target="_blank">
+                                <img src="img/portfolio/3.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/4.jpg" target="_blank">
+                                <img src="img/portfolio/4.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/5.jpg" target="_blank">
+                                <img src="img/portfolio/5.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="portfolio">
+                            <a href="img/portfolio/6.jpg" target="_blank">
+                                <img src="img/portfolio/6.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="narrow text-center">
+                        <div class="col-12">
+                            <h3>Over 500+ movies watched</h3>
+
+                        </div>
+
+
+                        <a class="btn btn-secondary btn-md" data-toggle="collapse" href="#collapseMore" role="button" aria-expanded="false">
+                            More
+                        </a>
+
+                        <div class="collapse" id="collapseMore">
+                            <div class="card card-body bg-secondary text-light">
+                                <h4>My Two Favourite Film Directors</h4>
+                                <p><strong>Giuseppe Tornatore</strong> (born 27 May 1956) is an Italian film director and screenwriter. In a career spanning over 30 years he is best known for directing and writing drama films such as The Legend of 1900, Malèna, Baarìa and The Best Offer. Probably his most noted film is Nuovo Cinema Paradiso, for which Tornatore won the Academy Award for Best Foreign Language Film.</p>
+                                <p><strong>Hirokazu Kore-eda</strong>(是枝 裕和, Koreeda Hirokazu, born 6 June 1962) is a Japanese film director, producer, screenwriter, and editor. He began his career in television and has since directed more than a dozen feature films, including Nobody Knows (2004), Still Walking (2008), and After the Storm (2016). He won the Jury Prize at the 2013 Cannes Film Festival for Like Father, Like Son and won the Palme d'Or at the 2018 Cannes Film Festival for Shoplifters.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------emoji--------->
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/panda.gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/rabbit.gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/unicorn.gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/chicken.gif">
+                </div>
+            </div>
+
+        </div>
+        <!-------contact------>
+        <section id="contact">
+            <footer>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-center">
+
+                        <p>Reading ten thousand books is like traveling ten thousand miles.</p>
+                        <strong>Contact Info</strong>
+                        <p>xuxyx95@gmail.com</p>
+
+                        <a href="https://www.facebook.com/profile.php?id=100013168488768" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/Chuiwanyau" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/chuiwanyau/" target="_blank"><i class="fas fa-camera"></i></a>
+
+                    </div>
+
+                </div>
+            </footer>
+        </section>
+</body>
+
+</html>
